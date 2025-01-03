@@ -7,21 +7,22 @@ from sqlalchemy.orm import Session
 router = APIRouter(prefix='/user', tags=['user'])
 
 @router.get('/')
-async def all_tasks():
+async def all_users():
     pass
 
 @router.get('/task_id')
-async def task_by_id():
+async def user_by_id():
     pass
 
 @router.post('/create')
-async def create_task():
+async def create_user():
     pass
 
 @router.put('/update')
-async def update_task():
+async def update_user():
     pass
 
 @router.delete('/delete')
-async def delete_task():
+async def delete_user():
     pass
+
